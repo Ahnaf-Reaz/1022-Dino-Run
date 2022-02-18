@@ -1,2 +1,3 @@
 # 1022-Dino-Run
 EECS 1022 Project: Dino Run
+Our project is the game Dino Run, which is inspired by the game that Chrome allows you to play when your instance of it is offline. The player controls a dinosaur that is running in a straight line, and they must press a button to jump over various obstacles that will appear on screen at random intervals. For each obstacle the player dodges, they will earn a point. The player will be able to choose a difficulty, with each level of difficulty also providing a score multiplier to the player. The objective is to gain as many points as possible, and the game ends when the player gets hit by an object. The highest scores will be saved in a localized leaderboard.
