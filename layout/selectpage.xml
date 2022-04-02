@@ -14,13 +14,15 @@
         app:layout_constraintBottom_toTopOf="@+id/backbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/easybtn"
         android:layout_width="195dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="easy"
         android:text="Easy"
         app:layout_constraintBottom_toTopOf="@+id/difbtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,14 +32,12 @@
         android:id="@+id/backbtn"
         android:layout_width="195dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginBottom="96dp"
         android:onClick="back"
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/instbtn"
-        app:layout_constraintVertical_bias="0.84" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
